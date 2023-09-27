@@ -21,10 +21,11 @@ import jakarta.persistence.EntityNotFoundException;
  * Servicio de gestión de libros en la biblioteca.
  * 
  * <p>
- * El servicio {@code Libroservice} proporciona métodos para realizar
+ * El servicio {@code LibroserviceImpl} proporciona métodos para realizar
  * operaciones relacionadas con la entidad {@code Libro}. Esta clase implementa
- * la interfaz {@code LibroRepository} y, por lo tanto, proporciona métodos de
- * acceso a la base de datos para interactuar con los libros.
+ * la interfaz {@code LibroRepository} y la interfaz {@code LibroService}, lo que
+ * le permite proporcionar métodos de acceso a la base de datos y lógica de
+ * negocio para interactuar con los libros.
  * </p>
  * 
  * <p>
